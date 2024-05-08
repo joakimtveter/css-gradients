@@ -1,0 +1,17 @@
+.gradient-1 {
+  background: linear-gradient(219.46deg, #110036 27.63%, #170059 100%), linear-gradient(219.46deg, #FFFFFF 27.63%, #19004E 100%), radial-gradient(100% 246.94% at 100% 100%, #FFFFFF 0%, #000353 100%), linear-gradient(121.18deg, #1400FF 0.45%, #3A0000 100%), linear-gradient(192.86deg, #F06060 9.22%, #008B7A 87.25%), linear-gradient(150.76deg, #0015D5 15.35%, #000B6C 89.57%);
+  background-blend-mode: screen, overlay, overlay, difference, difference, normal;
+}
+
+.gradient-2 {
+  background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%);
+}
+
+.gradient-3 {
+  background-image: 
+    conic-gradient(
+      from 0deg at center in oklch longer hue,
+      oklch(70% .3 0) 0%, oklch(70% .3 0) 100%
+    )
+  ;
+}
